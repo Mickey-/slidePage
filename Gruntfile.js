@@ -21,33 +21,6 @@ module.exports = function(grunt) {
             }
         },
         browserify: {
-            h5: {
-                expand: true,
-                cwd: 'src',
-                options: {
-                    debug: false,
-                    alias: [
-                        './src/h5/entry/edit:edit'
-                    ],
-                },
-                src: [
-                    './h5/entry/edit.js'
-                ],
-                dest: buildDir,
-                ext: '.js'
-            },
-            pc: {
-                expand: true,
-                cwd: 'src',
-                options: {
-                    debug: false,
-                },
-                src: [
-                    './pc/entry/entry.js'
-                ],
-                dest: buildDir,
-                ext: '.js'
-            },
             h5render_html: {
                 expand: true,
                 cwd: 'src',
@@ -74,21 +47,6 @@ module.exports = function(grunt) {
                 },
                 src: [
                     './h5render/entry/entry_rawjson.js'
-                ],
-                dest: buildDir,
-                ext: '.js'
-            },
-            h5list: {
-                expand: true,
-                cwd: 'src',
-                options: {
-                    debug: false,
-                    alias: [
-                        './src/h5/entry/list:list'
-                    ],
-                },
-                src: [
-                    './h5/entry/list.js'
                 ],
                 dest: buildDir,
                 ext: '.js'

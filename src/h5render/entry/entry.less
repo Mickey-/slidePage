@@ -1,0 +1,24 @@
+@import "../global/custom-reset.less";
+@import '../../mod/elements/less/parse.less';
+#wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-user-select: none;
+  box-sizing: content-box;
+
+  .phone-page {
+    display: none;
+  }
+  .active {
+    display: block;
+    z-index: 9;
+  }
+
+}
+

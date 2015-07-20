@@ -1,0 +1,10 @@
+/*flipX*/
+@import '../../base/flippers/flipInX';
+@import '../../base/flippers/flipOutX';
+.flipX{
+	backface-visibility: visible !important;
+  	animation-name: flipInX;
+	&.out{
+		animation-name: flipOutX;
+	}
+}

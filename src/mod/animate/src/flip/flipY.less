@@ -1,0 +1,10 @@
+/*flipY*/
+@import '../../base/flippers/flipInY';
+@import '../../base/flippers/flipOutY';
+.flipY{
+	backface-visibility: visible !important;
+  	animation-name: flipInY;
+	&.out{
+		animation-name: flipOutY;
+	}
+}

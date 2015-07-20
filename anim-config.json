@@ -1,0 +1,50 @@
+{
+
+  "bouncing": {
+    "bounce": true,
+    "bounceDown": true,
+    "bounceLeft": true,
+    "bounceRight": true,
+    "bounceUp": true
+  },
+
+  "fading": {
+    "fade": true,
+    "fadeDown": true,
+    "fadeDownBig": false,
+    "fadeLeft": true,
+    "fadeLeftBig": false,
+    "fadeRight": true,
+    "fadeRightBig": false,
+    "fadeUp": true,
+    "fadeUpBig": false 
+  },
+
+  "flip": {
+    "flipX": true,
+    "flipY": true
+  },
+
+  "rotate": {
+    "rotate": true,
+    "rotateDownLeft": true,
+    "rotateDownRight": true,
+    "rotateUpLeft": true,
+    "rotateUpRight": true
+  },
+
+  "slide": {
+    "slideDown": true,
+    "slideLeft": true,
+    "slideRight": true,
+    "slideUp": true
+  },
+
+  "zoom": {
+    "zoom": true,
+    "zoomDown": true,
+    "zoomLeft": true,
+    "zoomRight": true,
+    "zoomUp": true 
+  }
+}

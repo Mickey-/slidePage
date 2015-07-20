@@ -1,0 +1,74 @@
+{
+  type: 'page',
+  aniName: 'slideUp',
+  styles: {
+    backgroundImage: 'https://img.alicdn.com/tps/TB1QUm_IFXXXXbCXXXXXXXXXXXX.png'
+  },
+  elements: [
+    {
+      type: 'picture',
+      content: {
+        picUrl: 'https://img.alicdn.com/bao/uploaded/T1u9YvFjFbXXb1upjX.jpg_q90.jpg',
+        url: ''
+      },
+      styles: {
+        top: 200,
+        left: 140,
+        aniName: 'rotateIn',
+        delay: '0.5s',
+        duration: '1.5s'
+      },
+      picStyles: {
+        width: 40,
+        height: 40,
+      },
+      mask: {
+        width: 40,
+        height: 40,
+        top: 0,
+        left: 0,
+        type: 'circle'
+      }
+    },
+    {
+      type: 'text',
+      content: {
+        text: '123456',
+        url: ''
+      },
+      styles: {
+        color: '#ff5000',
+        fontSize: '34px',
+        textAlign: 'center',
+        backgroundImage: 'https://img.alicdn.com/tps/TB1XSeQIFXXXXXoapXXXXXXXXXX.png',
+        padding: '126px 268px',
+        bottom: 20,
+        left: 20,
+        width: 280,
+        height: 280,
+        duration: '1s',
+        aniName: 'fadeIn'
+      }
+    },
+    {
+      type: 'text',
+      content: {
+        text: '进入店铺 >',
+        url: '',
+      },
+      styles: {
+        fontSize: '16px',
+        backgroundColor: '#b01b14',
+        color: '#fff',
+        bottom: 55,
+        left: 94,
+        width: 132,
+        height: 38,
+        lineHeight: '38px',
+        textAlign: 'center',
+        duration: '1s',
+        aniName: 'fadeIn'
+      }
+    }
+  ]
+}
